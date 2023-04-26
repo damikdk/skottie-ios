@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137CC0A429D1F59E00F949C9 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137CC0A329D1F59E00F949C9 /* MetalKit.framework */; };
+		137CC0B029D2042200F949C9 /* simple-lottie-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 137CC0AF29D2042200F949C9 /* simple-lottie-loader.json */; };
+		137DE00229F82031007B3AF4 /* libsvg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137DDFFD29F82031007B3AF4 /* libsvg.xcframework */; };
+		13C9EEB629D1F20300F7FD72 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EEB529D1F20300F7FD72 /* SceneDelegate.m */; };
+		13C9EEBE29D1F20400F7FD72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C9EEBD29D1F20400F7FD72 /* Assets.xcassets */; };
+		13C9EED929D1F26500F7FD72 /* SkMetalViewBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EECA29D1F26300F7FD72 /* SkMetalViewBridge.mm */; };
+		13C9EEDD29D1F26500F7FD72 /* GrContextHolder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED129D1F26400F7FD72 /* GrContextHolder.mm */; };
+		13C9EEDE29D1F26500F7FD72 /* SkiaViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED229D1F26400F7FD72 /* SkiaViewController.mm */; };
+		13C9EEDF29D1F26500F7FD72 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED329D1F26500F7FD72 /* main.mm */; };
+		13C9EEE029D1F26500F7FD72 /* SkiaContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED529D1F26500F7FD72 /* SkiaContext.mm */; };
+		13C9EEE129D1F26500F7FD72 /* SkottieViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED729D1F26500F7FD72 /* SkottieViewController.mm */; };
+		13C9EEE229D1F26500F7FD72 /* SkiaMetalContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED829D1F26500F7FD72 /* SkiaMetalContext.mm */; };
+		13E2222F29F94EC100F3E170 /* libskia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 137CC09F29D1F4F700F949C9 /* libskia.a */; };
+		13E2223029F94EC100F3E170 /* libskottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 137CC0A029D1F4F700F949C9 /* libskottie.a */; };
+		13E2223129F94EC100F3E170 /* libsksg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 137CC0A529D1F5DE00F949C9 /* libsksg.a */; };
+		13E2223229F94EC100F3E170 /* libskshaper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 137CC0A929D1F61B00F949C9 /* libskshaper.a */; };
+		13E2223329F94EE300F3E170 /* libskunicode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 137CC0A729D1F60B00F949C9 /* libskunicode.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1306487029DC6FDB005777FA /* libspvtools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspvtools.a; path = "starified-skia-libs/libs/libspvtools.a"; sourceTree = "<group>"; };
+		1306487129DC6FDB005777FA /* libspvtools_val.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspvtools_val.a; path = "starified-skia-libs/libs/libspvtools_val.a"; sourceTree = "<group>"; };
+		137CC09F29D1F4F700F949C9 /* libskia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libskia.a; path = "starified-skia-libs/libs/libskia.a"; sourceTree = "<group>"; };
+		137CC0A029D1F4F700F949C9 /* libskottie.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libskottie.a; path = "starified-skia-libs/libs/libskottie.a"; sourceTree = "<group>"; };
+		137CC0A329D1F59E00F949C9 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		137CC0A529D1F5DE00F949C9 /* libsksg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsksg.a; path = "starified-skia-libs/libs/libsksg.a"; sourceTree = "<group>"; };
+		137CC0A729D1F60B00F949C9 /* libskunicode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libskunicode.a; path = "starified-skia-libs/libs/libskunicode.a"; sourceTree = "<group>"; };
+		137CC0A929D1F61B00F949C9 /* libskshaper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libskshaper.a; path = "starified-skia-libs/libs/libskshaper.a"; sourceTree = "<group>"; };
+		137CC0AF29D2042200F949C9 /* simple-lottie-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "simple-lottie-loader.json"; sourceTree = "<group>"; };
+		137DDFFD29F82031007B3AF4 /* libsvg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libsvg.xcframework; path = "starified-skia-libs/libs/libsvg.xcframework"; sourceTree = "<group>"; };
+		137DDFFE29F82031007B3AF4 /* libskottie.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libskottie.xcframework; path = "starified-skia-libs/libs/libskottie.xcframework"; sourceTree = "<group>"; };
+		137DDFFF29F82031007B3AF4 /* libsksg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libsksg.xcframework; path = "starified-skia-libs/libs/libsksg.xcframework"; sourceTree = "<group>"; };
+		137DE00029F82031007B3AF4 /* libskia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libskia.xcframework; path = "starified-skia-libs/libs/libskia.xcframework"; sourceTree = "<group>"; };
+		137DE00129F82031007B3AF4 /* libskshaper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libskshaper.xcframework; path = "starified-skia-libs/libs/libskshaper.xcframework"; sourceTree = "<group>"; };
+		1381838D29D6EFEB003D87A3 /* libexpat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libexpat.a; path = "starified-skia-libs/libs/libexpat.a"; sourceTree = "<group>"; };
+		1381838E29D6EFEB003D87A3 /* libpiex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpiex.a; path = "starified-skia-libs/libs/libpiex.a"; sourceTree = "<group>"; };
+		1381838F29D6EFEB003D87A3 /* libdng_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdng_sdk.a; path = "starified-skia-libs/libs/libdng_sdk.a"; sourceTree = "<group>"; };
+		1381839029D6EFEB003D87A3 /* libharfbuzz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libharfbuzz.a; path = "starified-skia-libs/libs/libharfbuzz.a"; sourceTree = "<group>"; };
+		1381839129D6EFEB003D87A3 /* libwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebp.a; path = "starified-skia-libs/libs/libwebp.a"; sourceTree = "<group>"; };
+		1381839229D6EFEB003D87A3 /* libskcms.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libskcms.a; path = "starified-skia-libs/libs/libskcms.a"; sourceTree = "<group>"; };
+		1381839329D6EFEB003D87A3 /* libskresources.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libskresources.a; path = "starified-skia-libs/libs/libskresources.a"; sourceTree = "<group>"; };
+		1381839429D6EFEB003D87A3 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = "starified-skia-libs/libs/libpng.a"; sourceTree = "<group>"; };
+		1381839529D6EFEB003D87A3 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = "starified-skia-libs/libs/libzlib.a"; sourceTree = "<group>"; };
+		1381839629D6EFEB003D87A3 /* libicu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libicu.a; path = "starified-skia-libs/libs/libicu.a"; sourceTree = "<group>"; };
+		1381839729D6EFEB003D87A3 /* libwuffs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwuffs.a; path = "starified-skia-libs/libs/libwuffs.a"; sourceTree = "<group>"; };
+		1381839829D6EFEC003D87A3 /* libwebp_sse41.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebp_sse41.a; path = "starified-skia-libs/libs/libwebp_sse41.a"; sourceTree = "<group>"; };
+		1381839929D6EFEC003D87A3 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = "starified-skia-libs/libs/libjpeg.a"; sourceTree = "<group>"; };
+		13C9EEAE29D1F20300F7FD72 /* skottie-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "skottie-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C9EEB429D1F20300F7FD72 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		13C9EEB529D1F20300F7FD72 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		13C9EEBD29D1F20400F7FD72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13C9EEC229D1F20400F7FD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C9EECA29D1F26300F7FD72 /* SkMetalViewBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkMetalViewBridge.mm; sourceTree = "<group>"; };
+		13C9EECC29D1F26300F7FD72 /* SkMetalViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMetalViewBridge.h; sourceTree = "<group>"; };
+		13C9EECD29D1F26400F7FD72 /* SkiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkiaViewController.h; sourceTree = "<group>"; };
+		13C9EECF29D1F26400F7FD72 /* SkottieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkottieViewController.h; sourceTree = "<group>"; };
+		13C9EED129D1F26400F7FD72 /* GrContextHolder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GrContextHolder.mm; sourceTree = "<group>"; };
+		13C9EED229D1F26400F7FD72 /* SkiaViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaViewController.mm; sourceTree = "<group>"; };
+		13C9EED329D1F26500F7FD72 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		13C9EED429D1F26500F7FD72 /* GrContextHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrContextHolder.h; sourceTree = "<group>"; };
+		13C9EED529D1F26500F7FD72 /* SkiaContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaContext.mm; sourceTree = "<group>"; };
+		13C9EED629D1F26500F7FD72 /* SkiaContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkiaContext.h; sourceTree = "<group>"; };
+		13C9EED729D1F26500F7FD72 /* SkottieViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp.preprocessed; fileEncoding = 4; path = SkottieViewController.mm; sourceTree = "<group>"; };
+		13C9EED829D1F26500F7FD72 /* SkiaMetalContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaMetalContext.mm; sourceTree = "<group>"; };
+		13C9EEE429D1F3BE00F7FD72 /* libskottie.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libskottie.a; sourceTree = "<group>"; };
+		13C9EEE529D1F3BE00F7FD72 /* libskia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libskia.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13C9EEAB29D1F20300F7FD72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E2223329F94EE300F3E170 /* libskunicode.a in Frameworks */,
+				13E2222F29F94EC100F3E170 /* libskia.a in Frameworks */,
+				13E2223029F94EC100F3E170 /* libskottie.a in Frameworks */,
+				13E2223129F94EC100F3E170 /* libsksg.a in Frameworks */,
+				13E2223229F94EC100F3E170 /* libskshaper.a in Frameworks */,
+				137DE00229F82031007B3AF4 /* libsvg.xcframework in Frameworks */,
+				137CC0A429D1F59E00F949C9 /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C9EEA529D1F20300F7FD72 = {
+			isa = PBXGroup;
+			children = (
+				13C9EEB029D1F20300F7FD72 /* skottie-ios */,
+				13C9EEAF29D1F20300F7FD72 /* Products */,
+				13C9EEE329D1F3BE00F7FD72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13C9EEAF29D1F20300F7FD72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13C9EEAE29D1F20300F7FD72 /* skottie-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13C9EEB029D1F20300F7FD72 /* skottie-ios */ = {
+			isa = PBXGroup;
+			children = (
+				137CC0AF29D2042200F949C9 /* simple-lottie-loader.json */,
+				13C9EEB429D1F20300F7FD72 /* SceneDelegate.h */,
+				13C9EEB529D1F20300F7FD72 /* SceneDelegate.m */,
+				13C9EEBD29D1F20400F7FD72 /* Assets.xcassets */,
+				13C9EEC229D1F20400F7FD72 /* Info.plist */,
+				13C9EED429D1F26500F7FD72 /* GrContextHolder.h */,
+				13C9EED129D1F26400F7FD72 /* GrContextHolder.mm */,
+				13C9EED329D1F26500F7FD72 /* main.mm */,
+				13C9EED629D1F26500F7FD72 /* SkiaContext.h */,
+				13C9EED529D1F26500F7FD72 /* SkiaContext.mm */,
+				13C9EED829D1F26500F7FD72 /* SkiaMetalContext.mm */,
+				13C9EECD29D1F26400F7FD72 /* SkiaViewController.h */,
+				13C9EED229D1F26400F7FD72 /* SkiaViewController.mm */,
+				13C9EECC29D1F26300F7FD72 /* SkMetalViewBridge.h */,
+				13C9EECA29D1F26300F7FD72 /* SkMetalViewBridge.mm */,
+				13C9EECF29D1F26400F7FD72 /* SkottieViewController.h */,
+				13C9EED729D1F26500F7FD72 /* SkottieViewController.mm */,
+			);
+			path = "skottie-ios";
+			sourceTree = "<group>";
+		};
+		13C9EEE329D1F3BE00F7FD72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				137DE00029F82031007B3AF4 /* libskia.xcframework */,
+				137DDFFE29F82031007B3AF4 /* libskottie.xcframework */,
+				137DDFFF29F82031007B3AF4 /* libsksg.xcframework */,
+				137DE00129F82031007B3AF4 /* libskshaper.xcframework */,
+				137DDFFD29F82031007B3AF4 /* libsvg.xcframework */,
+				1306487129DC6FDB005777FA /* libspvtools_val.a */,
+				1306487029DC6FDB005777FA /* libspvtools.a */,
+				1381838F29D6EFEB003D87A3 /* libdng_sdk.a */,
+				1381838D29D6EFEB003D87A3 /* libexpat.a */,
+				1381839029D6EFEB003D87A3 /* libharfbuzz.a */,
+				1381839629D6EFEB003D87A3 /* libicu.a */,
+				1381839929D6EFEC003D87A3 /* libjpeg.a */,
+				1381838E29D6EFEB003D87A3 /* libpiex.a */,
+				1381839429D6EFEB003D87A3 /* libpng.a */,
+				1381839229D6EFEB003D87A3 /* libskcms.a */,
+				1381839329D6EFEB003D87A3 /* libskresources.a */,
+				1381839829D6EFEC003D87A3 /* libwebp_sse41.a */,
+				1381839129D6EFEB003D87A3 /* libwebp.a */,
+				1381839729D6EFEB003D87A3 /* libwuffs.a */,
+				1381839529D6EFEB003D87A3 /* libzlib.a */,
+				137CC0A929D1F61B00F949C9 /* libskshaper.a */,
+				137CC0A729D1F60B00F949C9 /* libskunicode.a */,
+				137CC0A529D1F5DE00F949C9 /* libsksg.a */,
+				137CC0A329D1F59E00F949C9 /* MetalKit.framework */,
+				137CC09F29D1F4F700F949C9 /* libskia.a */,
+				137CC0A029D1F4F700F949C9 /* libskottie.a */,
+				13C9EEE529D1F3BE00F7FD72 /* libskia.a */,
+				13C9EEE429D1F3BE00F7FD72 /* libskottie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13C9EEAD29D1F20300F7FD72 /* skottie-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C9EEC729D1F20400F7FD72 /* Build configuration list for PBXNativeTarget "skottie-ios" */;
+			buildPhases = (
+				13C9EEAA29D1F20300F7FD72 /* Sources */,
+				13C9EEAB29D1F20300F7FD72 /* Frameworks */,
+				13C9EEAC29D1F20300F7FD72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "skottie-ios";
+			productName = "skottie-ios";
+			productReference = 13C9EEAE29D1F20300F7FD72 /* skottie-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13C9EEA629D1F20300F7FD72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					13C9EEAD29D1F20300F7FD72 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 13C9EEA929D1F20300F7FD72 /* Build configuration list for PBXProject "skottie-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13C9EEA529D1F20300F7FD72;
+			productRefGroup = 13C9EEAF29D1F20300F7FD72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C9EEAD29D1F20300F7FD72 /* skottie-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13C9EEAC29D1F20300F7FD72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C9EEBE29D1F20400F7FD72 /* Assets.xcassets in Resources */,
+				137CC0B029D2042200F949C9 /* simple-lottie-loader.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C9EEAA29D1F20300F7FD72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C9EEE029D1F26500F7FD72 /* SkiaContext.mm in Sources */,
+				13C9EEE129D1F26500F7FD72 /* SkottieViewController.mm in Sources */,
+				13C9EEE229D1F26500F7FD72 /* SkiaMetalContext.mm in Sources */,
+				13C9EED929D1F26500F7FD72 /* SkMetalViewBridge.mm in Sources */,
+				13C9EEDF29D1F26500F7FD72 /* main.mm in Sources */,
+				13C9EEDE29D1F26500F7FD72 /* SkiaViewController.mm in Sources */,
+				13C9EEB629D1F20300F7FD72 /* SceneDelegate.m in Sources */,
+				13C9EEDD29D1F26500F7FD72 /* GrContextHolder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13C9EEC529D1F20400F7FD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13C9EEC629D1F20400F7FD72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13C9EEC829D1F20400F7FD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					SK_METAL,
+					SK_DEBUG,
+					SK_GANESH,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "skottie-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/starified-skia-libs/libs",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "damirka.skottie-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/starified-skia-libs/headers";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13C9EEC929D1F20400F7FD72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SK_GANESH,
+					SK_METAL,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "skottie-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/starified-skia-libs/libs",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "damirka.skottie-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/starified-skia-libs/headers";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C9EEA929D1F20300F7FD72 /* Build configuration list for PBXProject "skottie-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C9EEC529D1F20400F7FD72 /* Debug */,
+				13C9EEC629D1F20400F7FD72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C9EEC729D1F20400F7FD72 /* Build configuration list for PBXNativeTarget "skottie-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C9EEC829D1F20400F7FD72 /* Debug */,
+				13C9EEC929D1F20400F7FD72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13C9EEA629D1F20300F7FD72 /* Project object */;
+}
