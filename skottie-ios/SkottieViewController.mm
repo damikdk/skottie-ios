@@ -42,12 +42,15 @@ public:
     }
 
     void load(const void* data, size_t length) {
-        skottie::Animation::Builder builder;
-    
+      
       auto logger = sk_make_sp<skottie::Logger>();
-        fAnimation = builder
-//        .setLogger(logger)
-        .make((const char*)data, (size_t)length);
+
+      auto anim = skottie::Animation::Builder()
+        .setLogger(logger)
+//        .setResourceProvider(rp)
+        .make(static_cast<const char*>(data), length);
+      
+      fAnimation = anim;
       
         fSize = {0, 0};
         fAnimationSize = fAnimation ? fAnimation->size() : SkSize{0, 0};

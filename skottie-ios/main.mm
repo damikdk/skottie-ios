@@ -56,7 +56,7 @@
         }
         SkottieViewController* controller = [[SkottieViewController alloc] init];
         if (![controller loadAnimation:content]) {
-            NSLog(@"Can't parse animation from '%@'", path.lastPathComponent);
+            NSLog(@"There is no animation for SkottieViewController, can't parse animation from '%@'", path.lastPathComponent);
             continue;
         }
         CGSize animSize = [controller size];
@@ -68,7 +68,7 @@
         [skiaView setNeedsDisplay];
         [stack addArrangedSubview:skiaView];
         totalHeight += height + kSpacing;
-    }\
+    }
     [stack setFrame:{{0, 0}, {screenWidth, totalHeight}}];
     [stack setNeedsDisplay];
 
