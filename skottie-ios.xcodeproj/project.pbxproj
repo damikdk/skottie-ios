@@ -17,32 +17,37 @@
 		13C9EEE029D1F26500F7FD72 /* SkiaContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED529D1F26500F7FD72 /* SkiaContext.mm */; };
 		13C9EEE129D1F26500F7FD72 /* SkottieViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED729D1F26500F7FD72 /* SkottieViewController.mm */; };
 		13C9EEE229D1F26500F7FD72 /* SkiaMetalContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED829D1F26500F7FD72 /* SkiaMetalContext.mm */; };
+		13E16B8C2A1B70DD007879AF /* poker.json in Resources */ = {isa = PBXBuildFile; fileRef = 13E16B8A2A1B70DD007879AF /* poker.json */; };
+		13E16B8D2A1B70DD007879AF /* vibes.json in Resources */ = {isa = PBXBuildFile; fileRef = 13E16B8B2A1B70DD007879AF /* vibes.json */; };
+		13E16B962A1E2684007879AF /* libcompression_utils_portable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E16B852A1B613A007879AF /* libcompression_utils_portable.a */; };
+		13E16B972A1E2684007879AF /* libdng_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B029FC07C0007CB20A /* libdng_sdk.a */; };
+		13E16B982A1E2684007879AF /* libexpat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B529FC07C0007CB20A /* libexpat.a */; };
+		13E16B992A1E2684007879AF /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223D29FA982E00F3E170 /* libjpeg.a */; };
+		13E16B9A2A1E2684007879AF /* libpathkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E16B842A1B613A007879AF /* libpathkit.a */; };
+		13E16B9B2A1E2684007879AF /* libpiex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B829FC07C1007CB20A /* libpiex.a */; };
+		13E16B9C2A1E2684007879AF /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2224029FA982E00F3E170 /* libpng.a */; };
+		13E16B9D2A1E2684007879AF /* libskcms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B729FC07C0007CB20A /* libskcms.a */; };
+		13E16B9E2A1E2684007879AF /* libskia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223B29FA982E00F3E170 /* libskia.a */; };
+		13E16B9F2A1E2684007879AF /* libskottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223F29FA982E00F3E170 /* libskottie.a */; };
+		13E16BA02A1E2684007879AF /* libskresources.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B129FC07C0007CB20A /* libskresources.a */; };
+		13E16BA12A1E2684007879AF /* libsksg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223E29FA982E00F3E170 /* libsksg.a */; };
+		13E16BA22A1E2684007879AF /* libskshaper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2224229FA982E00F3E170 /* libskshaper.a */; };
+		13E16BA32A1E2684007879AF /* libsvg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E16B862A1B613A007879AF /* libsvg.a */; };
+		13E16BA42A1E2684007879AF /* libwebp_sse41.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B229FC07C0007CB20A /* libwebp_sse41.a */; };
+		13E16BA52A1E2684007879AF /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223C29FA982E00F3E170 /* libwebp.a */; };
+		13E16BA62A1E2684007879AF /* libwuffs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B329FC07C0007CB20A /* libwuffs.a */; };
+		13E16BA72A1E2684007879AF /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B629FC07C0007CB20A /* libzlib.a */; };
 		13E2C29C29FBD70B007CB20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C29B29FBD70B007CB20A /* Foundation.framework */; };
 		13E2C29E29FBD715007CB20A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C29D29FBD715007CB20A /* CoreFoundation.framework */; };
 		13E2C2A029FBD75D007CB20A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C29F29FBD75D007CB20A /* CoreText.framework */; };
 		13E2C2A229FBD76C007CB20A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2A129FBD76C007CB20A /* CoreGraphics.framework */; };
 		13E2C2A429FBD771007CB20A /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2A329FBD771007CB20A /* CoreServices.framework */; };
 		13E2C2A629FBD7B5007CB20A /* simple-lottie-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 13E2C2A529FBD7B5007CB20A /* simple-lottie-loader.json */; };
-		13E2C2A729FC07C0007CB20A /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223C29FA982E00F3E170 /* libwebp.a */; };
-		13E2C2A829FC07C0007CB20A /* libskunicode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223A29FA982E00F3E170 /* libskunicode.a */; };
-		13E2C2A929FC07C0007CB20A /* libskshaper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2224229FA982E00F3E170 /* libskshaper.a */; };
-		13E2C2AA29FC07C0007CB20A /* libsksg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223E29FA982E00F3E170 /* libsksg.a */; };
-		13E2C2AB29FC07C0007CB20A /* libskottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223F29FA982E00F3E170 /* libskottie.a */; };
-		13E2C2AC29FC07C0007CB20A /* libskia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223B29FA982E00F3E170 /* libskia.a */; };
-		13E2C2AD29FC07C0007CB20A /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2224029FA982E00F3E170 /* libpng.a */; };
-		13E2C2AE29FC07C0007CB20A /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223D29FA982E00F3E170 /* libjpeg.a */; };
-		13E2C2AF29FC07C0007CB20A /* libicu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2224129FA982E00F3E170 /* libicu.a */; };
-		13E2C2BB29FC07C1007CB20A /* libdng_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B029FC07C0007CB20A /* libdng_sdk.a */; };
-		13E2C2BC29FC07C1007CB20A /* libskresources.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B129FC07C0007CB20A /* libskresources.a */; };
-		13E2C2BD29FC07C1007CB20A /* libwebp_sse41.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B229FC07C0007CB20A /* libwebp_sse41.a */; };
-		13E2C2BE29FC07C1007CB20A /* libwuffs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B329FC07C0007CB20A /* libwuffs.a */; };
-		13E2C2BF29FC07C1007CB20A /* libharfbuzz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B429FC07C0007CB20A /* libharfbuzz.a */; };
-		13E2C2C029FC07C1007CB20A /* libexpat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B529FC07C0007CB20A /* libexpat.a */; };
-		13E2C2C129FC07C1007CB20A /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B629FC07C0007CB20A /* libzlib.a */; };
-		13E2C2C229FC07C1007CB20A /* libskcms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B729FC07C0007CB20A /* libskcms.a */; };
-		13E2C2C329FC07C1007CB20A /* libpiex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B829FC07C1007CB20A /* libpiex.a */; };
-		13E2C2C429FC07C1007CB20A /* libspvtools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2B929FC07C1007CB20A /* libspvtools.a */; };
-		13E2C2C529FC07C1007CB20A /* libspvtools_val.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2BA29FC07C1007CB20A /* libspvtools_val.a */; };
+		13E8C7102A0D37E1000CBD24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C70F2A0D37E1000CBD24 /* QuartzCore.framework */; };
+		13E8C7122A0D37F3000CBD24 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C7112A0D37F3000CBD24 /* IOSurface.framework */; };
+		13E8C7142A0D389E000CBD24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C7132A0D389E000CBD24 /* UIKit.framework */; };
+		13E8C7162A0D3929000CBD24 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C7152A0D3929000CBD24 /* ImageIO.framework */; };
+		13E8C7182A0D392F000CBD24 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C7172A0D392F000CBD24 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +69,14 @@
 		13C9EED629D1F26500F7FD72 /* SkiaContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkiaContext.h; sourceTree = "<group>"; };
 		13C9EED729D1F26500F7FD72 /* SkottieViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp.preprocessed; fileEncoding = 4; path = SkottieViewController.mm; sourceTree = "<group>"; };
 		13C9EED829D1F26500F7FD72 /* SkiaMetalContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaMetalContext.mm; sourceTree = "<group>"; };
+		13E16B842A1B613A007879AF /* libpathkit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpathkit.a; path = "skia-libs/libs/libpathkit.a"; sourceTree = "<group>"; };
+		13E16B852A1B613A007879AF /* libcompression_utils_portable.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcompression_utils_portable.a; path = "skia-libs/libs/libcompression_utils_portable.a"; sourceTree = "<group>"; };
+		13E16B862A1B613A007879AF /* libsvg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsvg.a; path = "skia-libs/libs/libsvg.a"; sourceTree = "<group>"; };
+		13E16B8A2A1B70DD007879AF /* poker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poker.json; sourceTree = "<group>"; };
+		13E16B8B2A1B70DD007879AF /* vibes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vibes.json; sourceTree = "<group>"; };
+		13E16B902A1CE712007879AF /* libspvtools_link.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspvtools_link.a; path = "skia-libs/libs/libspvtools_link.a"; sourceTree = "<group>"; };
+		13E16B912A1CE712007879AF /* libspvtools_opt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspvtools_opt.a; path = "skia-libs/libs/libspvtools_opt.a"; sourceTree = "<group>"; };
+		13E16B922A1CE712007879AF /* libspvtools_reduce.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspvtools_reduce.a; path = "skia-libs/libs/libspvtools_reduce.a"; sourceTree = "<group>"; };
 		13E2223A29FA982E00F3E170 /* libskunicode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libskunicode.a; path = "skia-libs/libs/libskunicode.a"; sourceTree = "<group>"; };
 		13E2223B29FA982E00F3E170 /* libskia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libskia.a; path = "skia-libs/libs/libskia.a"; sourceTree = "<group>"; };
 		13E2223C29FA982E00F3E170 /* libwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebp.a; path = "skia-libs/libs/libwebp.a"; sourceTree = "<group>"; };
@@ -90,6 +103,11 @@
 		13E2C2B829FC07C1007CB20A /* libpiex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpiex.a; path = "skia-libs/libs/libpiex.a"; sourceTree = "<group>"; };
 		13E2C2B929FC07C1007CB20A /* libspvtools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspvtools.a; path = "skia-libs/libs/libspvtools.a"; sourceTree = "<group>"; };
 		13E2C2BA29FC07C1007CB20A /* libspvtools_val.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspvtools_val.a; path = "skia-libs/libs/libspvtools_val.a"; sourceTree = "<group>"; };
+		13E8C70F2A0D37E1000CBD24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		13E8C7112A0D37F3000CBD24 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
+		13E8C7132A0D389E000CBD24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13E8C7152A0D3929000CBD24 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		13E8C7172A0D392F000CBD24 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,26 +115,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13E2C2BB29FC07C1007CB20A /* libdng_sdk.a in Frameworks */,
-				13E2C2BC29FC07C1007CB20A /* libskresources.a in Frameworks */,
-				13E2C2BD29FC07C1007CB20A /* libwebp_sse41.a in Frameworks */,
-				13E2C2BE29FC07C1007CB20A /* libwuffs.a in Frameworks */,
-				13E2C2BF29FC07C1007CB20A /* libharfbuzz.a in Frameworks */,
-				13E2C2C029FC07C1007CB20A /* libexpat.a in Frameworks */,
-				13E2C2C129FC07C1007CB20A /* libzlib.a in Frameworks */,
-				13E2C2C229FC07C1007CB20A /* libskcms.a in Frameworks */,
-				13E2C2C329FC07C1007CB20A /* libpiex.a in Frameworks */,
-				13E2C2C429FC07C1007CB20A /* libspvtools.a in Frameworks */,
-				13E2C2C529FC07C1007CB20A /* libspvtools_val.a in Frameworks */,
-				13E2C2A729FC07C0007CB20A /* libwebp.a in Frameworks */,
-				13E2C2A829FC07C0007CB20A /* libskunicode.a in Frameworks */,
-				13E2C2A929FC07C0007CB20A /* libskshaper.a in Frameworks */,
-				13E2C2AA29FC07C0007CB20A /* libsksg.a in Frameworks */,
-				13E2C2AB29FC07C0007CB20A /* libskottie.a in Frameworks */,
-				13E2C2AC29FC07C0007CB20A /* libskia.a in Frameworks */,
-				13E2C2AD29FC07C0007CB20A /* libpng.a in Frameworks */,
-				13E2C2AE29FC07C0007CB20A /* libjpeg.a in Frameworks */,
-				13E2C2AF29FC07C0007CB20A /* libicu.a in Frameworks */,
+				13E16B962A1E2684007879AF /* libcompression_utils_portable.a in Frameworks */,
+				13E16B972A1E2684007879AF /* libdng_sdk.a in Frameworks */,
+				13E16B982A1E2684007879AF /* libexpat.a in Frameworks */,
+				13E16B992A1E2684007879AF /* libjpeg.a in Frameworks */,
+				13E16B9A2A1E2684007879AF /* libpathkit.a in Frameworks */,
+				13E16B9B2A1E2684007879AF /* libpiex.a in Frameworks */,
+				13E16B9C2A1E2684007879AF /* libpng.a in Frameworks */,
+				13E16B9D2A1E2684007879AF /* libskcms.a in Frameworks */,
+				13E16B9E2A1E2684007879AF /* libskia.a in Frameworks */,
+				13E16B9F2A1E2684007879AF /* libskottie.a in Frameworks */,
+				13E16BA02A1E2684007879AF /* libskresources.a in Frameworks */,
+				13E16BA12A1E2684007879AF /* libsksg.a in Frameworks */,
+				13E16BA22A1E2684007879AF /* libskshaper.a in Frameworks */,
+				13E16BA32A1E2684007879AF /* libsvg.a in Frameworks */,
+				13E16BA42A1E2684007879AF /* libwebp_sse41.a in Frameworks */,
+				13E16BA52A1E2684007879AF /* libwebp.a in Frameworks */,
+				13E16BA62A1E2684007879AF /* libwuffs.a in Frameworks */,
+				13E16BA72A1E2684007879AF /* libzlib.a in Frameworks */,
+				13E8C7182A0D392F000CBD24 /* MobileCoreServices.framework in Frameworks */,
+				13E8C7162A0D3929000CBD24 /* ImageIO.framework in Frameworks */,
+				13E8C7142A0D389E000CBD24 /* UIKit.framework in Frameworks */,
+				13E8C7122A0D37F3000CBD24 /* IOSurface.framework in Frameworks */,
+				13E8C7102A0D37E1000CBD24 /* QuartzCore.framework in Frameworks */,
 				13E2C2A429FBD771007CB20A /* CoreServices.framework in Frameworks */,
 				13E2C2A229FBD76C007CB20A /* CoreGraphics.framework in Frameworks */,
 				13E2C2A029FBD75D007CB20A /* CoreText.framework in Frameworks */,
@@ -149,6 +170,8 @@
 		13C9EEB029D1F20300F7FD72 /* skottie-ios */ = {
 			isa = PBXGroup;
 			children = (
+				13E16B8A2A1B70DD007879AF /* poker.json */,
+				13E16B8B2A1B70DD007879AF /* vibes.json */,
 				13C9EEB429D1F20300F7FD72 /* SceneDelegate.h */,
 				13C9EEB529D1F20300F7FD72 /* SceneDelegate.m */,
 				13E2C2A529FBD7B5007CB20A /* simple-lottie-loader.json */,
@@ -173,6 +196,17 @@
 		13C9EEE329D1F3BE00F7FD72 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13E16B902A1CE712007879AF /* libspvtools_link.a */,
+				13E16B912A1CE712007879AF /* libspvtools_opt.a */,
+				13E16B922A1CE712007879AF /* libspvtools_reduce.a */,
+				13E16B852A1B613A007879AF /* libcompression_utils_portable.a */,
+				13E16B842A1B613A007879AF /* libpathkit.a */,
+				13E16B862A1B613A007879AF /* libsvg.a */,
+				13E8C7172A0D392F000CBD24 /* MobileCoreServices.framework */,
+				13E8C7152A0D3929000CBD24 /* ImageIO.framework */,
+				13E8C7132A0D389E000CBD24 /* UIKit.framework */,
+				13E8C7112A0D37F3000CBD24 /* IOSurface.framework */,
+				13E8C70F2A0D37E1000CBD24 /* QuartzCore.framework */,
 				13E2C2B029FC07C0007CB20A /* libdng_sdk.a */,
 				13E2C2B529FC07C0007CB20A /* libexpat.a */,
 				13E2C2B429FC07C0007CB20A /* libharfbuzz.a */,
@@ -260,8 +294,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E16B8C2A1B70DD007879AF /* poker.json in Resources */,
 				13C9EEBE29D1F20400F7FD72 /* Assets.xcassets in Resources */,
 				13E2C2A629FBD7B5007CB20A /* simple-lottie-loader.json in Resources */,
+				13E16B8D2A1B70DD007879AF /* vibes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -388,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -425,6 +461,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/skia-libs/libs/**",
+					"$(PROJECT_DIR)/skia-libs/libs",
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
@@ -467,6 +504,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/skia-libs/libs/**",
+					"$(PROJECT_DIR)/skia-libs/libs",
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
