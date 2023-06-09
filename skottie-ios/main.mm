@@ -72,10 +72,9 @@
     [stack setFrame:{{0, 0}, {screenWidth, totalHeight}}];
     [stack setNeedsDisplay];
 
-    CGFloat statusBarHeight = [[UIApplication sharedApplication] statusBarFrame].size.height;
     CGSize mainScreenSize = [[UIScreen mainScreen] bounds].size;
-    CGRect scrollViewBounds = {{0, statusBarHeight},
-                               {mainScreenSize.width, mainScreenSize.height - statusBarHeight}};
+    CGRect scrollViewBounds = {{0, 0},
+                               {mainScreenSize.width, mainScreenSize.height}};
     UIScrollView* scrollView = [[UIScrollView alloc] initWithFrame:scrollViewBounds];
     [scrollView setContentSize:[stack frame].size];
     [scrollView addSubview:stack];
