@@ -42,12 +42,8 @@ public:
     }
 
     void load(const void* data, size_t length) {
-      
-      auto logger = sk_make_sp<skottie::Logger>();
-
       auto anim = skottie::Animation::Builder()
-        .setLogger(logger)
-//        .setResourceProvider(rp)
+        .setResourceProvider(skresources::DataURIResourceProviderProxy::Make(nullptr))
         .make(static_cast<const char*>(data), length);
       
       fAnimation = anim;

@@ -104,7 +104,7 @@
                                                  device:[self metalDevice]
                                                  queue:[self metalQueue]
                                                  grDevice:fDContext.get()];
-    [skiaView setPreferredFramesPerSecond:30];
+    [skiaView setPreferredFramesPerSecond:60];
     [skiaView setController:vc];
     return skiaView;
 }
