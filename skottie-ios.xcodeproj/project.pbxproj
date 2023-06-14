@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		137CC0A429D1F59E00F949C9 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137CC0A329D1F59E00F949C9 /* MetalKit.framework */; };
+		1338F6462A39C6EE00899819 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137CC0A329D1F59E00F949C9 /* MetalKit.framework */; };
 		138F4C792A33781D00E2BFB0 /* vibes.json in Resources */ = {isa = PBXBuildFile; fileRef = 138F4C772A33781D00E2BFB0 /* vibes.json */; };
 		138F4C7A2A33781D00E2BFB0 /* poker.json in Resources */ = {isa = PBXBuildFile; fileRef = 138F4C782A33781D00E2BFB0 /* poker.json */; };
 		13989CA92A2DE4FC0038D65F /* libskia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2223B29FA982E00F3E170 /* libskia.a */; };
@@ -25,17 +25,7 @@
 		13C9EEE029D1F26500F7FD72 /* SkiaContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED529D1F26500F7FD72 /* SkiaContext.mm */; };
 		13C9EEE129D1F26500F7FD72 /* SkottieViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED729D1F26500F7FD72 /* SkottieViewController.mm */; };
 		13C9EEE229D1F26500F7FD72 /* SkiaMetalContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C9EED829D1F26500F7FD72 /* SkiaMetalContext.mm */; };
-		13E2C29C29FBD70B007CB20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C29B29FBD70B007CB20A /* Foundation.framework */; };
-		13E2C29E29FBD715007CB20A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C29D29FBD715007CB20A /* CoreFoundation.framework */; };
-		13E2C2A029FBD75D007CB20A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C29F29FBD75D007CB20A /* CoreText.framework */; };
-		13E2C2A229FBD76C007CB20A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2A129FBD76C007CB20A /* CoreGraphics.framework */; };
-		13E2C2A429FBD771007CB20A /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2C2A329FBD771007CB20A /* CoreServices.framework */; };
 		13E2C2A629FBD7B5007CB20A /* simple-lottie-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 13E2C2A529FBD7B5007CB20A /* simple-lottie-loader.json */; };
-		13E8C7102A0D37E1000CBD24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C70F2A0D37E1000CBD24 /* QuartzCore.framework */; };
-		13E8C7122A0D37F3000CBD24 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C7112A0D37F3000CBD24 /* IOSurface.framework */; };
-		13E8C7142A0D389E000CBD24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C7132A0D389E000CBD24 /* UIKit.framework */; };
-		13E8C7162A0D3929000CBD24 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C7152A0D3929000CBD24 /* ImageIO.framework */; };
-		13E8C7182A0D392F000CBD24 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C7172A0D392F000CBD24 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,17 +99,7 @@
 				13989CAB2A2DE4FC0038D65F /* libsksg.a in Frameworks */,
 				13989CAC2A2DE4FC0038D65F /* libskshaper.a in Frameworks */,
 				13989CAD2A2DE4FC0038D65F /* libsvg.a in Frameworks */,
-				13E8C7182A0D392F000CBD24 /* MobileCoreServices.framework in Frameworks */,
-				13E8C7162A0D3929000CBD24 /* ImageIO.framework in Frameworks */,
-				13E8C7142A0D389E000CBD24 /* UIKit.framework in Frameworks */,
-				13E8C7122A0D37F3000CBD24 /* IOSurface.framework in Frameworks */,
-				13E8C7102A0D37E1000CBD24 /* QuartzCore.framework in Frameworks */,
-				13E2C2A429FBD771007CB20A /* CoreServices.framework in Frameworks */,
-				13E2C2A229FBD76C007CB20A /* CoreGraphics.framework in Frameworks */,
-				13E2C2A029FBD75D007CB20A /* CoreText.framework in Frameworks */,
-				13E2C29E29FBD715007CB20A /* CoreFoundation.framework in Frameworks */,
-				13E2C29C29FBD70B007CB20A /* Foundation.framework in Frameworks */,
-				137CC0A429D1F59E00F949C9 /* MetalKit.framework in Frameworks */,
+				1338F6462A39C6EE00899819 /* MetalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,8 +409,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "skottie-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,18 +417,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/skia-libs/libs/**",
 					"$(PROJECT_DIR)/skia-libs/libs",
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
-					"-lskresources",
-					"-lskshaper",
-					"-lsksg",
-					"-lskottie",
-					"-lskia",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "damirka.skottie-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,7 +430,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/skia-libs/headers/**";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/skia-libs/headers";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
@@ -479,8 +452,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "skottie-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,18 +460,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/skia-libs/libs/**",
 					"$(PROJECT_DIR)/skia-libs/libs",
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
-					"-lskresources",
-					"-lskshaper",
-					"-lsksg",
-					"-lskottie",
-					"-lskia",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "damirka.skottie-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,7 +473,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/skia-libs/headers/**";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/skia-libs/headers";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
